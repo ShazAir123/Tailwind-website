@@ -3,7 +3,7 @@
 Tailwind Portfolio Website
 Project Brief
 
-This project was developed as part of my journey learning Tailwind CSS and modern front-end web development. The goal was to recreate a high-fidelity portfolio website from provided wireframes while applying responsive design principles, utility-first styling, Flexbox, and CSS Grid layouts.
+This project was developed as part of my journey learning Tailwind CSS and modern front-end web development. The goal was to recreate a high-fidelity portfolio website from provided wireframes while applying responsive design principles, utility-first styling, Flexbox, and CSS Grid layouts and no positioning ie Absolute.
 
 The website consists of multiple interconnected pages that work together as a complete portfolio experience:
 
@@ -63,19 +63,20 @@ Creating a structured information panel.
 Using vertical Flexbox layouts with consistent spacing through Tailwind's gap utilities.
 Ensuring clean alignment and readability throughout the page.
 
-Milestone 5 – User Experience & Polish
+Milestone 5 – User Experience
 
 Focused on improving the overall user experience by:
 
 Standardising margins and padding throughout the website.
 Creating consistent spacing systems.
 Adding hover effects to interactive elements.
+
 Applying:
-transition-colors
-transition-transform
-hover animations
+Transition-transform
+Hover animations
 Enhancing navigation responsiveness.
 Creating a more polished and professional user experience.
+
 About The Project
 
 The goal of this project was to build a high-fidelity portfolio website using Tailwind CSS while closely following provided design wireframes.
@@ -118,14 +119,16 @@ Shared footer structure
 Smooth transitions and hover effects
 Consistent spacing and typography
 Custom Tailwind theme configuration
-Technologies Used
+
+Technologies Used: 
 HTML5
 Tailwind CSS
 CSS Grid
 Flexbox
 Responsive Design Principles
 Utility-First CSS Methodology
-Why This Project Is Useful
+
+Why This Project Is Useful?
 
 This project demonstrates how Tailwind CSS can be used to create professional, responsive websites without writing large amounts of custom CSS.
 
@@ -139,7 +142,7 @@ Front-end best practices
 
 For new developers learning Tailwind CSS, this project serves as a practical example of building a complete multi-page website using utility classes.
 
-What Users Can Do
+What Users Can Do?
 
 Users can:
 
@@ -170,9 +173,26 @@ SEO optimization
 Deployment to a custom domain
 Contributions
 
-Contributions, suggestions, and feedback are welcome.
 
-If you would like to improve the project, fix bugs, or suggest new features, please feel free to get involved.
+How To View The Project:
+
+Option 1: Open Locally
+Download or clone the repository.
+Open the project folder.
+Open index.html in your web browser.
+Option 2: Using VS Code Live Server
+Open the project in Visual Studio Code.
+Install the Live Server extension.
+Right-click index.html.
+Select Open with Live Server.
+Option 3: GitHub Pages
+Option 4: --------------------------------Blog
+Option 5: --------------------------------------
+
+GitHub Pages:
+
+Visit the live project URL.--------------------------------------------------put here
+Navigate through the Home, Projects, and Contact pages.
 
 Project Maintenance
 
@@ -192,22 +212,10 @@ If you would like to contribute, provide feedback, or report issues, please cont
 
 Email: sharonairewele@gmail.com
 
-How To View The Project
-Option 1: Open Locally
-Download or clone the repository.
-Open the project folder.
-Open index.html in your web browser.
-Option 2: Using VS Code Live Server
-Open the project in Visual Studio Code.
-Install the Live Server extension.
-Right-click index.html.
-Select Open with Live Server.
-Option 3: GitHub Pages
+Contributions, suggestions, and feedback are welcome.
 
-GitHub Pages:
+If you would like to improve the project, fix bugs, or suggest new features, please feel free to get involved.
 
-Visit the live project URL.
-Navigate through the Home, Projects, and Contact pages.
 Author
 
 Sharon Airewele
