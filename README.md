@@ -191,8 +191,7 @@ Option 5: --------------------------------------
 
 GitHub Pages:
 
-Visit the live project URL.--------------------------------------------------put here
-Navigate through the Home, Projects, and Contact pages.
+Visit the live project URL: https://github.com/ShazAir123/Tailwind-website.git
 
 Project Maintenance
 
