@@ -7,7 +7,7 @@ This project was developed as part of my journey learning Tailwind CSS and moder
 
 The website consists of multiple interconnected pages that work together as a complete portfolio experience:
 
-'[tailwindcss-index.html](https://github.com/user-attachments/files/28724736/tailwindcss-index.html) - Home Page
+'[index.html](https://github.com/user-attachments/files/28724736/index.html) - Home Page
 '[tailwindcss-portfolio-page.html](https://github.com/user-attachments/files/28724737/tailwindcss-portfolio-page.html) - Portfolio Page
 '[tailwindcss-contact.html](https://github.com/user-attachments/files/28724735/tailwindcss-contact.html) - Contact page
 
