@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="tailwind css practice">
+    <meta name="keywords" content="tailwind css, practice, website">
+    <meta name="author" content="Sharon Smith">
+    <title>Tailwind CSS Assignment</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="tailwind-css.css" rel="stylesheet">
+    <link href="input.css" rel="stylesheet">
+    <link href="output.css" rel="stylesheet">
+      <link href="/src/style.css" rel="stylesheet">
+      <link href="input-css-3.css" rel="stylesheet">
+      <link href="@import-tailwind.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+  
+                        
+                    },
+                },
+            },
+        }
+    </script>
+    <!--This is Tailwind CSS color scheme-->
+    <style type="text/tailwindcss">      
+    @theme  {          
+      --color-brand-gold: #da373d;          
+      --color-deep-charcoal: #1a1a1a;     }
+      </style>
+</head>
+
+<body class="bg-gray-300 overflow-x-hidden">
+  <header class="w-full bg-gray-300 border-b-2 border-black uppercase">
+    <nav class="max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6 py-4">
+
+    <!-- Left: Logo -->
+      <h1 class="text-lg sm:text-lg font-bold">Student_Portfolio_V1</h1>
+
+    <!-- Center: Nav links -->
+      <ul class="hidden md:flex gap-6 text-gray-500 font-bold">
+       <li><a href="index.html" class="hover:text-black hover:underline underline-offset-8">Home</a></li>
+       <li><a href="tailwindcss-portfolio-page.html" class="hover:text-black hover:underline underline-offset-8">Projects</a></li>
+       <li><a href="tailwindcss-contact.html" class="hover:text-black hover:underline underline-offset-8">Contact</a></li>
+      </ul>
+
+    <!-- Right: CV Button -->
+      <div class="flex items-center gap-2 sm:gap-4 flex-shrink-0">
+       <a href="Sharon-Airewele-CV-2026.pdf" download class="px-3 py-2 sm:px-6 sm:py-3 text-[10px] sm:text-sm bg-black text-white whitespace-nowrap">DOWNLOAD_CV</a>
+      </div>
+
+    </nav>
+  </header>
+
+
+  <header class="w-full uppercase">
+    <div class="flex items-start gap-6 sm:gap-10 px-4 sm:px-10 py-10">
+
+    <!-- Left vertical line (always stays left) -->
+      <div class="bg-black w-1 h-20 sm:h-36 flex-shrink-0"></div>
+
+    <!-- Text block -->
+      <div class="text-black uppercase text-left max-w-full">
+       <h1 class="text-3xl sm:text-3xl font-extrabold leading-tight break-words"> Selected_works</h1>
+       <p class="mt-3 text-gray-400 normal-case text-sm sm:text-base leading-relaxed uppercase break-words">AN ARCHIVAL COLLECTION OF ACADEMIC AND PERSONAL PROJECTS FOCUSING ON<br>STRUCTURAL INTEGRITY, COMPUTATIONAL DESIGN, AND INTERACTIVE SYSTEMS. 2022<br>–2024.</p>
+      </div>
+    </div>
+  </header>
+
+  <section class="grid grid-cols-1 md:grid-cols-3 gap-6 border border-gray-500 p-5 uppercase">
+
+  <!-- CARD 1 -->
+   <div class="flex flex-col border-2 border-gray-300 p-5 h-full">
+     <div class="h-64 w-full bg-cover bg-center flex items-center justify-center text-white text-2xl font-bold" style="background-image: url('/Users/sharon/Desktop/Website practice 2/tailwind/Tailwind-CSS/tailwindcss-project/tailwind-css-images/tailwindcss-env.jpg');">
+      <span class="bg-white text-gray-950 p-1">img_placeholder_01</span>
+     </div>
+      <div class="flex flex-col flex-grow mt-4">
+       <div class="flex justify-between items-start">
+        <h6 class="text-lg text-black font-extrabold">project title</h6>
+        <p class="text-gray-400 border border-gray-300 p-2 w-14 h-8 text-xs text-right">id_001</p>
+      </div>
+        <p class="text-gray-900 normal-case flex-grow">Exploration of generative patterns using modular<br> arithmetic. Focus on visual weight and balance<br> within a constrained 8px grid system.</p>
+       <div class="flex text-xs text-gray-400 mt-4 gap-5">
+        <div>#systems</div>
+        <div>#typography</div>
+       </div>
+     </div>
+   </div>
+
+
+
+
+  <!-- CARD 2 -->
+      <div class="flex flex-col border-2 border-gray-300 p-5 h-full">
+       <div class="h-64 w-full bg-cover bg-center flex items-center justify-center text-white text-2xl font-bold" style="background-image: url('/Users/sharon/Desktop/Website practice 2/tailwind/Tailwind-CSS/tailwindcss-project/tailwind-css-images/tailwindcss-env.jpg');">
+        <span class="bg-white text-gray-950 p-1">img_placeholder_02</span>
+       </div>
+          <div class="flex flex-col flex-grow mt-4">
+            <div class="flex justify-between items-start">
+              <h6 class="text-lg text-black font-extrabold">interactive skill: CSS hover effect</h6>
+              <p class="text-gray-400 border border-gray-300 p-2 w-14 h-8 text-xs text-right">id_002</p>
+            </div>
+              <p class="text-gray-900 normal-case flex-grow">Demonstrating rapid state transitions and color inversion through standard CSS utility classes. Hover over this card to view the visual transformation.</p> 
+            <div class="flex text-xs text-gray-400 mt-4 gap-5">
+             <div>#interactive</div>
+             <div>#motion</div>
+            </div>
+          </div>
+      </div>
+
+  <!-- CARD 3 -->
+  <div class="flex flex-col border-2 border-gray-300 p-5 h-full">
+    <div class="h-64 w-full bg-cover bg-center flex items-center justify-center text-white text-2xl font-bold"style="background-image: url('/Users/sharon/Desktop/Website practice 2/tailwind/Tailwind-CSS/tailwindcss-project/tailwind-css-images/tailwindcss-env.jpg');">
+      <span class="bg-white text-gray-950 p-1">img_placeholder_03</span>
+    </div>
+    <div class="flex flex-col flex-grow mt-4">
+      <div class="flex justify-between items-start">
+       <h6 class="text-lg text-black font-extrabold">project title</h6>
+       <p class="text-gray-400 border border-gray-300 p-2 w-14 h-8 text-xs text-right">id_003</p>
+      </div>
+
+       <p class="text-gray-900 normal-case flex-grow">Multi-dimensional data visualization for urban traffic<br> flow. Using scalar values to represent<br> density and frequency.</p>
+      <div class="flex text-xs text-gray-400 mt-4 gap-5">
+        <div>#data_viz</div>
+        <div>#algorithmic</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CARD 4 -->
+      <div class="flex flex-col border-2 border-gray-300 p-5 h-full">
+       <div class="h-64 w-full bg-cover bg-center flex items-center justify-center text-white text-2xl font-bold" style="background-image: url('/Users/sharon/Desktop/Website practice 2/tailwind/Tailwind-CSS/tailwindcss-project/tailwind-css-images/tailwindcss-env.jpg');">
+        <span class="bg-white text-gray-950 p-1">img_placeholder_04</span>
+       </div>
+       <div class="flex flex-col flex-grow mt-4">
+         <div class="flex justify-between items-start">
+          <h6 class="text-lg text-black font-extrabold">project title</h6>
+          <p class="text-gray-400 border border-gray-300 p-2 w-14 h-8 text-xs text-right">id_004</p>
+         </div>
+          <p class="text-gray-900 normal-case flex-grow">Design study of brutalist architecture translated into digital interface components. Emphasis on raw<br> material feel and high contrast.</p>
+         <div class="flex text-xs text-gray-400 mt-4 gap-5">
+          <div>#brutalism</div>
+          <div>#ui_design</div>
+         </div>
+       </div>
+      </div>
+
+  <!-- CARD 5 -->
+     <div class="flex flex-col border-2 border-gray-300 p-5 h-full">
+      <div class="h-64 w-full bg-cover bg-center flex items-center justify-center text-white text-2xl font-bold" style="background-image: url('/Users/sharon/Desktop/Website practice 2/tailwind/Tailwind-CSS/tailwindcss-project/tailwind-css-images/tailwindcss-env.jpg');">
+       <span class="bg-white text-gray-950 p-1">img_placeholder_05</span>
+      </div>
+      <div class="flex flex-col flex-grow mt-4">
+       <div class="flex justify-between items-start">
+        <h6 class="text-lg text-black font-extrabold">project title</h6>
+        <p class="text-gray-400 border border-gray-300 p-2 w-14 h-8 text-xs text-right">id_005</p>
+       </div>
+        <p class="text-gray-900 normal-case flex-grow">Responsive system framework for educational <br>platforms. Prioritizing information hierarchy and<br> accessible data nodes.</p>
+        <div class="flex text-xs text-gray-400 mt-4 gap-5">
+         <div>#framework</div>
+         <div>#ux_research</div>
+        </div>
+      </div>
+     </div>
+
+  <!-- CARD 6 -->
+     <div class="flex flex-col border-2 border-gray-300 p-5 h-full">
+          <div class="h-64 w-full bg-cover bg-center flex items-center justify-center text-white text-2xl font-bold" style="background-image: url('/Users/sharon/Desktop/Website practice 2/tailwind/Tailwind-CSS/tailwindcss-project/tailwind-css-images/tailwindcss-env.jpg');">
+           <span class="bg-white text-gray-950 p-1">img_placeholder_06</span>
+          </div>
+        <div class="flex flex-col flex-grow mt-4">
+         <div class="flex justify-between items-start">
+          <h6 class="text-lg text-black font-extrabold">project title</h6>
+          <p class="text-gray-400 border border-gray-300 p-2 w-14 h-8 text-xs text-right">id_006</p>
+         </div>
+          <p class="text-gray-900 normal-case flex-grow">Experimental log of 100 days of layout experiments.<br> Documentaion of grid-breaking patterns and<br> asymmetrical balance.</p>
+         <div class="flex text-xs text-gray-400 mt-4 gap-5">
+          <div>#layout</div>
+          <div>#experimental</div>
+         </div>
+        </div>
+     </div>
+
+  </section>
+
+
+
+<!--Viewing page-->
+
+   <section class="Archive-Viewing mt-18 mb-18 px-4">
+
+     <!-- Half-width line -->
+     <div class="w-full mb-6">
+      <div class="border-t-2 border-gray-500 w-full md:w-1/2"></div>
+     </div>
+
+  <!-- Labels under the line -->
+     <div class="w-full md:w-1/2 flex justify-between mb-4 uppercase text-black">
+      <h6 class="text-sm">ARCHIVE_SECTION_END</h6>
+      <h6 class="text-sm font-semibold">VIEWING_PAGE_01_OF_04</h6>
+     </div>
+
+  <!-- Button aligned right, responsive spacing -->
+     <div class="flex justify-end mt-4 sm:text-center md:-mt-[40px]">
+      <button class="text-black border border-black px-6 py-3 text-sm font-extrabold uppercase whitespace-nowrap transform scale-125 origin-right">Load_Next_Entries</button>
+     </div>
+
+   </section>
+
+   <footer class="w-full justify-between border-t-4 border-black bg-gray-400 p-6 sm:p-10 sm:text-center">
+     <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-start sm:items-center justify-center sm:justify-between gap-6">
+
+     <!-- Left: Copyright -->
+      <div class="flex flex-1 text-sm text-black leading-tight sm:text-center">© 2024 ARCHITECTURAL_SYSTEMS. ALL RIGHTS RESERVED.</div>
+
+    <!-- Right: Social links -->
+       <div class="flex flex-wrap gap-4 sm:gap-7 text-xs uppercase text-gray-600 underline justify-center">
+        <a href="" class="hover:text-black">LinkedIn</a>
+        <a href="" class="hover:text-black">GitHub</a>
+        <a href="" class="hover:text-black">readcv</a>
+        <a href="" class="hover:text-black">twitter</a>
+       </div>
+     </div>
+   </footer>
+
+</body>
+</html>
+
+
+
+
+
